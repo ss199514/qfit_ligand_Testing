@@ -1,0 +1,17 @@
+Ready set (phenix.ready_set original.pdb)
+
+  Refinement (phenix.refine refinement.main.nqh_flips=true optimize_xyz_weight=true refinement.main.number_of_macro_cycles=8 refinement.input.xray_data.labels=FWT,PHWT ../ready_set/*updated.pdb original.mtz ../ready_set/*.ligands.cif nproc=25)
+
+  Generate composite omit map (phenix.composite_omit_map original.pdb original.mtz ../ready_set/*.ligands.cif nproc=25)
+
+  Run qfit_ligand (qfit_ligand composite_omit_map.mtz -l 2FOFCWT,PH2FOFCWT original.pdb chain,number)
+  
+  
+  
+  
+
+For validation of qfit_ligand output:
+
+  Removed ligand from the original.pdb and created a composite map ONLY for the ligand
+
+  Refined against original.mtz
