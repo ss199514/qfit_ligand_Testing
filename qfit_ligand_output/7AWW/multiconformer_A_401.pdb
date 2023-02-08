@@ -1,0 +1,29 @@
+HETATM    1 CL1 ACLU A 401      15.874 -24.468   2.052  0.24 69.69          CL  
+HETATM    2  CAMACLU A 401      16.550 -25.497   5.818  0.24 82.70           C  
+HETATM    3  CAEACLU A 401      17.721 -24.800   6.147  0.24 49.41           C  
+HETATM    4  CACACLU A 401      18.319 -23.991   5.186  0.24 65.24           C  
+HETATM    5  CADACLU A 401      17.733 -23.889   3.920  0.24 69.26           C  
+HETATM    6  CANACLU A 401      15.911 -25.459   4.562  0.24 76.96           C  
+HETATM    7  CALACLU A 401      16.566 -24.624   3.636  0.24 77.21           C  
+HETATM    8 CL2 ACLU A 401      15.852 -26.486   7.017  0.24143.07          CL  
+HETATM    9  NAJACLU A 401      14.682 -26.200   4.279  0.24 59.38           N  
+HETATM   10  CAKACLU A 401      13.438 -25.619   3.795  0.24 70.71           C  
+HETATM   11  NAIACLU A 401      13.220 -24.323   3.697  0.24 37.05           N  
+HETATM   12  CAGACLU A 401      11.955 -24.094   2.950  0.24 52.65           C  
+HETATM   13  CAFACLU A 401      11.256 -25.450   2.905  0.24107.36           C  
+HETATM   14  NAHACLU A 401      12.315 -26.391   3.356  0.24 99.88           N  
+HETATM   15 CL1 BCLU A 401      17.120 -27.596   2.391  0.27 69.69          CL  
+HETATM   16  CAMBCLU A 401      14.818 -28.458   5.499  0.27 82.70           C  
+HETATM   17  CAEBCLU A 401      15.286 -29.711   5.920  0.27 49.41           C  
+HETATM   18  CACBCLU A 401      16.338 -30.307   5.232  0.27 65.24           C  
+HETATM   19  CADBCLU A 401      16.905 -29.637   4.141  0.27 69.26           C  
+HETATM   20  CANBCLU A 401      15.326 -27.731   4.403  0.27 76.96           C  
+HETATM   21  CALBCLU A 401      16.386 -28.389   3.750  0.27 77.21           C  
+HETATM   22 CL2 BCLU A 401      13.522 -27.764   6.360  0.27143.07          CL  
+HETATM   23  NAJBCLU A 401      14.805 -26.420   4.015  0.27 59.38           N  
+HETATM   24  CAKBCLU A 401      13.416 -26.124   3.697  0.27 70.71           C  
+HETATM   25  NAIBCLU A 401      12.906 -24.908   3.687  0.27 37.05           N  
+HETATM   26  CAGBCLU A 401      11.544 -24.953   3.092  0.27 52.65           C  
+HETATM   27  CAFBCLU A 401      11.163 -26.431   3.055  0.27107.36           C  
+HETATM   28  NAHBCLU A 401      12.449 -27.119   3.344  0.27 99.88           N  
+END                                                                             
