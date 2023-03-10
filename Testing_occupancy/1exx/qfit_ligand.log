@@ -1,0 +1,193 @@
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : ===== qFit version: 3.2.3.dev54+gc81387f =====
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : Mon Mar  6 23:13:37 2023 EST
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : /Users/ssharma/opt/miniconda3/envs/qfit/bin/qfit_ligand composite_omit_map.mtz -l 2FOFCWT,PH2FOFCWT 1exx.pdb A,450
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : ===== qFit parameters: =====
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : directory: /Users/ssharma/Desktop/1exx
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : verbose: False
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : debug: False
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : write_intermediate_conformers: False
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : random_seed: None
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : label: 2FOFCWT,PH2FOFCWT
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : map: composite_omit_map.mtz
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : structure: 1exx.pdb
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : density_cutoff: 0.3
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : density_cutoff_value: -1
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : subtract: True
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : padding: 8.0
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : waters_clash: True
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : map_type: None
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : resolution: None
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : resolution_min: None
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : scattering: xray
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : omit: False
+2023-03-06 23:13:37,921 [INFO    ] MainProcess qfit.qfit_ligand : scale: True
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : scale_rmask: 1.0
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : randomize_b: False
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : bulk_solvent_level: 0.3
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : clash_scaling_factor: 0.75
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : external_clash: False
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : dofs_per_iteration: 2
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : dihedral_stepsize: 10
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : hydro: False
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : rmsd_cutoff: 0.01
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : cplex: True
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : cardinality: 5
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : threshold: 0.2
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : bic_threshold: True
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : seg_bic_threshold: True
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : remove_conformers_below_cutoff: False
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : local_search: True
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : sample_ligand_stepsize: 10
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : selection: A,450
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : cif_file: None
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : numpy float resolution: 1.0e-15
+2023-03-06 23:13:37,922 [INFO    ] MainProcess qfit.qfit_ligand : ============================
+
+2023-03-06 23:13:37,949 [INFO    ] MainProcess qfit.qfit_ligand : Receptor atoms selected: 1857
+2023-03-06 23:13:37,949 [INFO    ] MainProcess qfit.qfit_ligand : Ligand atoms selected: 29
+2023-03-06 23:13:39,900 [INFO    ] MainProcess qfit.scaler : L2 scaling: S = 0.26	k = 0.47
+2023-03-06 23:13:44,864 [INFO    ] MainProcess qfit.qfit : Starting local search
+2023-03-06 23:13:45,562 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:13:46,010 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:13:46,351 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:13:46,357 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:13:46,416 [INFO    ] MainProcess qfit.qfit : Starting sample internal dofs
+2023-03-06 23:13:46,452 [INFO    ] MainProcess qfit.qfit : Nconf: 180
+2023-03-06 23:13:46,452 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:13:46,522 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:13:46,529 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:13:46,533 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:14:10,176 [INFO    ] MainProcess qfit.qfit : Nconf: 6480
+2023-03-06 23:14:10,177 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:14:13,103 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:14:27,832 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:14:27,850 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:14:43,977 [INFO    ] MainProcess qfit.qfit : Nconf: 5184
+2023-03-06 23:14:43,978 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:14:47,479 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:14:56,711 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:14:56,756 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:14:56,789 [INFO    ] MainProcess qfit.qfit : Number of conformers: 4
+2023-03-06 23:14:56,789 [INFO    ] MainProcess qfit.qfit : Number of final conformers: 4
+2023-03-06 23:14:56,789 [INFO    ] MainProcess qfit.qfit : Starting local search
+2023-03-06 23:14:57,610 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:14:57,991 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:14:58,212 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:14:58,216 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:14:58,242 [INFO    ] MainProcess qfit.qfit : Starting sample internal dofs
+2023-03-06 23:14:58,262 [INFO    ] MainProcess qfit.qfit : Nconf: 108
+2023-03-06 23:14:58,262 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:14:58,311 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:14:58,318 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:14:58,323 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:15:13,721 [INFO    ] MainProcess qfit.qfit : Nconf: 5184
+2023-03-06 23:15:13,722 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:15:15,929 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:15:24,151 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:15:24,166 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:15:42,054 [INFO    ] MainProcess qfit.qfit : Nconf: 5652
+2023-03-06 23:15:42,054 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:15:45,840 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:16:00,055 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:16:00,088 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:16:00,117 [INFO    ] MainProcess qfit.qfit : Number of conformers: 3
+2023-03-06 23:16:00,117 [INFO    ] MainProcess qfit.qfit : Number of final conformers: 7
+2023-03-06 23:16:00,117 [INFO    ] MainProcess qfit.qfit : Starting local search
+2023-03-06 23:16:00,971 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:16:01,477 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:16:01,658 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:16:01,664 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:16:01,703 [INFO    ] MainProcess qfit.qfit : Starting sample internal dofs
+2023-03-06 23:16:01,730 [INFO    ] MainProcess qfit.qfit : Nconf: 144
+2023-03-06 23:16:01,730 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:16:01,790 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:16:01,798 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:16:01,802 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:16:25,447 [INFO    ] MainProcess qfit.qfit : Nconf: 6480
+2023-03-06 23:16:25,447 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:16:28,226 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:16:41,717 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:16:41,740 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:16:56,416 [INFO    ] MainProcess qfit.qfit : Nconf: 5184
+2023-03-06 23:16:56,416 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:16:59,273 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:17:05,619 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:05,641 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:17:05,735 [INFO    ] MainProcess qfit.qfit : Number of conformers: 4
+2023-03-06 23:17:05,735 [INFO    ] MainProcess qfit.qfit : Number of final conformers: 11
+2023-03-06 23:17:05,736 [INFO    ] MainProcess qfit.qfit : Starting local search
+2023-03-06 23:17:06,507 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:07,019 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:17:07,248 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:07,253 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:17:07,278 [INFO    ] MainProcess qfit.qfit : Starting sample internal dofs
+2023-03-06 23:17:07,296 [INFO    ] MainProcess qfit.qfit : Nconf: 108
+2023-03-06 23:17:07,296 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:07,341 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:17:07,346 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:07,349 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:17:10,456 [INFO    ] MainProcess qfit.qfit : Nconf: 2556
+2023-03-06 23:17:10,456 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:11,551 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:17:12,743 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:12,751 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:17:15,906 [INFO    ] MainProcess qfit.qfit : Nconf: 2592
+2023-03-06 23:17:15,906 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:17,302 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:17:18,499 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:18,510 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:17:18,552 [INFO    ] MainProcess qfit.qfit : Number of conformers: 4
+2023-03-06 23:17:18,552 [INFO    ] MainProcess qfit.qfit : Number of final conformers: 15
+2023-03-06 23:17:18,552 [INFO    ] MainProcess qfit.qfit : Starting local search
+2023-03-06 23:17:19,259 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:19,614 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:17:19,834 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:19,838 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:17:19,874 [INFO    ] MainProcess qfit.qfit : Starting sample internal dofs
+2023-03-06 23:17:19,909 [INFO    ] MainProcess qfit.qfit : Nconf: 144
+2023-03-06 23:17:19,909 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:19,988 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:17:19,997 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:20,001 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:17:34,587 [INFO    ] MainProcess qfit.qfit : Nconf: 5184
+2023-03-06 23:17:34,587 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:36,742 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:17:44,245 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:17:44,258 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:17:58,225 [INFO    ] MainProcess qfit.qfit : Nconf: 5184
+2023-03-06 23:17:58,225 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:01,194 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:18:08,652 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:08,673 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:18:08,735 [INFO    ] MainProcess qfit.qfit : Number of conformers: 5
+2023-03-06 23:18:08,735 [INFO    ] MainProcess qfit.qfit : Number of final conformers: 20
+2023-03-06 23:18:08,735 [INFO    ] MainProcess qfit.qfit : Starting local search
+2023-03-06 23:18:09,479 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:09,823 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:18:10,000 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:10,004 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:18:10,037 [INFO    ] MainProcess qfit.qfit : Starting sample internal dofs
+2023-03-06 23:18:10,063 [INFO    ] MainProcess qfit.qfit : Nconf: 144
+2023-03-06 23:18:10,063 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:10,113 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:18:10,122 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:10,126 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:18:25,276 [INFO    ] MainProcess qfit.qfit : Nconf: 5184
+2023-03-06 23:18:25,276 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:27,558 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:18:33,948 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:33,966 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:18:42,168 [INFO    ] MainProcess qfit.qfit : Nconf: 3888
+2023-03-06 23:18:42,168 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:44,497 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:18:48,306 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:48,325 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:18:48,407 [INFO    ] MainProcess qfit.qfit : Number of conformers: 5
+2023-03-06 23:18:48,408 [INFO    ] MainProcess qfit.qfit : Number of final conformers: 25
+2023-03-06 23:18:48,408 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:48,434 [INFO    ] MainProcess qfit.qfit : Solving QP within run.
+2023-03-06 23:18:48,434 [INFO    ] MainProcess qfit.qfit : Solving QP
+2023-03-06 23:18:48,437 [INFO    ] MainProcess qfit.qfit : Solving MIQP within run.
+2023-03-06 23:18:48,437 [INFO    ] MainProcess qfit.qfit : Converting conformers to density
+2023-03-06 23:18:48,442 [INFO    ] MainProcess qfit.qfit : Solving MIQP
+2023-03-06 23:18:48,468 [INFO    ] MainProcess qfit.qfit_ligand : Total time: 303.60421991348267s
